@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:ArchimateDiagramModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" id="fd710bd1" name="Google Interface View">
-  <children xsi:type="archimate:DiagramModelArchimateObject" id="895cd630" textAlignment="2" targetConnections="4ec7333f">
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="895cd630" textAlignment="2" targetConnections="4ec7333f bdcfe76e">
     <bounds x="230" y="178" width="143" height="64"/>
     <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection" id="5e6f41a1" source="895cd630" target="f8deeef7">
       <relationship xsi:type="archimate:UsedByRelationship" href="../relations/216a7f46.xml#216a7f46"/>
@@ -17,5 +17,12 @@
       <relationship xsi:type="archimate:UsedByRelationship" href="../relations/44ff4a6c.xml#44ff4a6c"/>
     </sourceConnections>
     <archimateElement xsi:type="archimate:Device" href="../technology/c67ed5b5.xml#c67ed5b5"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="abe07904" textAlignment="2">
+    <bounds x="505" y="217" width="120" height="55"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection" id="bdcfe76e" source="abe07904" target="895cd630">
+      <relationship xsi:type="archimate:UsedByRelationship" href="../relations/02df8c63.xml#02df8c63"/>
+    </sourceConnections>
+    <archimateElement xsi:type="archimate:Device" href="../technology/bdd6819e.xml#bdd6819e"/>
   </children>
 </archimate:ArchimateDiagramModel>
