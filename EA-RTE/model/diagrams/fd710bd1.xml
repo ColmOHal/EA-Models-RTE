@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:ArchimateDiagramModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" id="fd710bd1" name="Google Interface View">
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="895cd630" textAlignment="2" targetConnections="4ec7333f">
+    <bounds x="230" y="178" width="143" height="64"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection" id="5e6f41a1" source="895cd630" target="f8deeef7">
+      <relationship xsi:type="archimate:UsedByRelationship" href="../relations/216a7f46.xml#216a7f46"/>
+    </sourceConnections>
+    <archimateElement xsi:type="archimate:ApplicationComponent" href="../application/a1b373ff.xml#a1b373ff"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="f8deeef7" textAlignment="2" targetConnections="5e6f41a1">
+    <bounds x="36" y="252" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:BusinessRole" href="../business/85435321.xml#85435321"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="cc90e785" textAlignment="2">
+    <bounds x="383" y="316" width="120" height="55"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection" id="4ec7333f" source="cc90e785" target="895cd630">
+      <relationship xsi:type="archimate:UsedByRelationship" href="../relations/44ff4a6c.xml#44ff4a6c"/>
+    </sourceConnections>
+    <archimateElement xsi:type="archimate:Device" href="../technology/c67ed5b5.xml#c67ed5b5"/>
+  </children>
+</archimate:ArchimateDiagramModel>
